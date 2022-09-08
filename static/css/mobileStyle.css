@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    overflow: hidden;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.header{
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px 0;
+    font-size: 23px;
+}
+
+#game{
+    border: 2px solid #fff;
+}
+
+.settings{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.settings_item{
+    display: none;
+    position: absolute;
+    top: 40%;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.settingsItem_opened{
+    display: block;
+}
+.settings_item > h1{
+    font-size: 20px;
+    margin: 10px 40px;
+    text-align: center;
+}
+.checkboxDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.checkboxDiv > span{
+    line-height: 20px;
+}
+.speed{
+    display: flex;
+    justify-content: space-between;
+}
+.speed > span{
+    line-height: 20px;
+}
+.control{
+    font-size: 12px;
+    margin: 10px 0;
+}
+.control > div{
+    margin: 10px 10px;
+}
+.gameOver_item{
+    display: none;
+    position: absolute;
+    top: 20%;
+    color: #fff;
+}
+.gameOver_item_opened{
+    display: block;
+}
+.gameOver{
+    text-align: center;
+    font-size: 50px;
+    margin: 40px;
+}
+.restart{
+    text-align: center;
+}
+.fps{
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    color: #fff;
+}
+#speedRange{
+    direction: rtl;
+    width: 50%;
+    -webkit-appearance: none;
+    border-radius: 14px;
+    background: #232528;
+}
+.score_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    color: #999;
+}

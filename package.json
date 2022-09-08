@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "name": "app.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Bahtibek",
+  "license": "ISC"
+}

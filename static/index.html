@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Snake</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="fps"></div>
+        <div class="header">
+            <div class="name">Snake</div>
+            <div class="score">0</div>
+        </div>
+        <div class="gameBorder"></div>
+            <canvas id="game"></canvas>
+            <div class="settings">Settings</div>
+        </div>
+        <div class="settings_item">
+            <h1>Settings</h1>
+            <div class="control">
+                <div class="checkboxDiv"><span>Collision</span><input type="checkbox" id="collision"></div>
+                <div class="speed">
+                    <span>Speed</span>
+                    <input id="speedRange" type="range" value="6" min="0" max="20" step="2">
+                </div>
+            </div>
+        </div>
+        <div class="gameOver_item">
+            <div class="gameOver">Game Over</div>
+            <div class="score_item">
+                <div>Best score: </div>
+                <span class="bestScore"></span>
+            </div>
+            <div class="restart">Restart</div>
+        </div>
+        <script src="./script/game.js"></script>
+    </div>
+</body>
+</html>
